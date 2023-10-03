@@ -36,7 +36,7 @@ nav {
 @media (min-width: 600px) {
     nav {
         padding: 1em 2em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -284,3 +284,4 @@ article .avatar img {
     object-fit: cover;
     border-radius: 50%;
 }
+
