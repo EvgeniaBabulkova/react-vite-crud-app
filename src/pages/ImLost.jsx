@@ -6,14 +6,13 @@ export default function ImLost() {
 
     useEffect(() => {
         async function getLosts(){
-            const url = "https://fb-rest-race-default-rtdb.firebaseio.com/posts.json"
+            const url = "https://st-try-e1382-default-rtdb.firebaseio.com/posts.json"
             const response = await fetch(url);
             const data = await response.json();
             const lostsArray = Object.keys(data).map(key =>({ id: key, ...data[key]}));
             setLosts(lostsArray);
 
-        console.log(data);
-        console.log(lostsArray);    
+            console.log(data);
     }
 
     getLosts();
