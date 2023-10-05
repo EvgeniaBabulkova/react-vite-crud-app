@@ -34,21 +34,3 @@ export default function ImLost() {
 }
 
 
-
-// {
-//     id:1,
-//     caption:"I love Aaaa",
-//     image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/The_Automobile_Association_logo.svg/800px-The_Automobile_Association_logo.svg.png"
-// },
-
-// {
-//     id:2,
-//     caption:"I love Bbbb",
-//     image:"https://pbs.twimg.com/profile_images/1267921885490274304/8HcfM0ab_400x400.jpg"
-// },
-
-// {
-//     id:3,
-//     caption:"I love Cccc",
-//     image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Closed_captioning_symbol.svg/1200px-Closed_captioning_symbol.svg.png"
-// }

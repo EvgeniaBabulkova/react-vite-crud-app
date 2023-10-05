@@ -7,6 +7,7 @@ export default function Nav() {
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/lost">Lost</NavLink>
+            <NavLink to="/create">Create</NavLink>
         </nav>
     );
 }
